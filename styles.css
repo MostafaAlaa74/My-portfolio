@@ -997,10 +997,13 @@ footer p {
     /* Hero Mobile Layout */
     #hero {
         flex-direction: column-reverse;
-        justify-content: center;
+        justify-content: flex-start;
+        height: auto;
+        min-height: 100vh;
         text-align: center;
-        padding-top: 7rem;
-        gap: 2rem;
+        padding-top: 8rem;
+        padding-bottom: 4rem;
+        gap: 3rem;
     }
 
     .hero-content {
